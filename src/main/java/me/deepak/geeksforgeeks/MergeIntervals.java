@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /*
  * https://leetcode.com/problems/merge-intervals/
+ * https://leetcode.com/articles/merge-intervals/
  * https://www.geeksforgeeks.org/merging-intervals/
 */
 public class MergeIntervals {

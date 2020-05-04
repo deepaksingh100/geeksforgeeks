@@ -26,7 +26,7 @@ public class SieveOfEratosthenes {
 			// if prime[i] is not changed, then it is a prime
 			if (prime[i]) {
 
-				// update all multiples of p
+				// update all multiples of i
 				for (int j = i * i; j <= n; j += i) {
 					prime[j] = false;
 				}

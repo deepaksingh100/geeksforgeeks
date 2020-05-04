@@ -31,7 +31,7 @@ public class CountPrimeFactorsInRange {
 			// if factorCount[i] is not changed, then it is a prime
 			if (factorCount[i] == 0) {
 
-				// update all multiples of p
+				// update all multiples of i
 				for (int j = i * i; j <= n; j += i) {
 					factorCount[j]++;
 				}

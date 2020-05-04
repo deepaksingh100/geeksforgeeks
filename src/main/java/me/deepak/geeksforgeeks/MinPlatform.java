@@ -32,14 +32,14 @@ public class MinPlatform {
 
 			if (arrivals[i] < departures[j]) {
 
-				// a train has departed, increment arrivals' iterator, number of platform needed
+				// a train has arrived, increment arrivals' iterator, number of platform needed
 				// update result
 				i++;
 				platformNeeded++;
 				result = Math.max(platformNeeded, result);
 			} else if (arrivals[i] > departures[j]) {
 
-				// a train has arrived, increment departures' iterator, decrement number of
+				// a train has departed, increment departures' iterator, decrement number of
 				// platform needed
 				j++;
 				platformNeeded--;
